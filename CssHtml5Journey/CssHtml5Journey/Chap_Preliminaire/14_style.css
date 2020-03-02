@@ -1,0 +1,14 @@
+﻿body {
+}
+
+h1{
+	color:rgb(150, 00, 150, 0.9);    /*Le quatrieme parametre spécifie l'opacité*/
+}
+.p1{
+	color:#0000FF;
+	opacity:0.2;
+}
+
+.p2 {
+	color:#00FF00;
+}

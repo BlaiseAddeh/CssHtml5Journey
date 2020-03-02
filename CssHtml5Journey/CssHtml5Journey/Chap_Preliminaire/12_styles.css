@@ -1,0 +1,16 @@
+﻿body {
+}
+
+/*
+	div est de type block
+	span est de type inline
+*/
+
+.div-para{   /*Heritage  ==> tous les paragraphe interne heritent de ce style*/
+	background-color:#88BB11;
+	font-weight:bold;
+}
+
+.span-trois{
+	color: blue;
+}

@@ -1,0 +1,38 @@
+﻿body {
+
+}
+
+/* SELECTEURS SIMPLE DE TYPE ELEMENTS */
+/*
+h1 {
+	font-size:80px;
+	color:red;
+	font-style:italic;
+}
+
+p {
+	color:blue;
+	font-weight:bold;
+}
+*/
+
+/* SELECTEURS COMPLEXE DE TYPE ELEMENTS */
+/* ici les elements sont couplés*/
+/*
+h1,p {
+  color:blue;
+}
+
+*/
+
+#p1 {
+	color:blue;	
+}
+
+#para {
+	color:green;
+}
+
+.p1 {
+	color: red;
+}

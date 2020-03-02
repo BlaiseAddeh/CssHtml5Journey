@@ -1,0 +1,46 @@
+﻿body {
+}
+
+/* 
+	static: position par défaut d'un element HTML 
+	avec static, les pptés Top, Left, Right et bottom ne fonctionnent pas
+
+	relavive: position par rapport à son positionnement par defaut
+	avec relavive, les pptés Top, Left, Right et bottom  fonctionnent correctement
+
+	fixed: cette ppté bloque l'élément à sa position d'origine meme quand la page est 
+	scrollée vers le bas.
+	positionner un element à fixed va le sortir du flux de la page
+
+	absolute: permet de positionner un element relativement à son parent le plus proche
+	positionner un element à absolute va le sortir du flux de la page
+
+	le z-index le plus elevé est placé au dessus de l'élément avec le z-index le plus faible
+*/
+
+.div1{
+	background-color:orange;
+	position:fixed;
+	top:50px;
+	left:100px;
+	width: 500px;
+	height: 400px;
+	z-index:100;
+}
+
+h1 {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+	z-index: 1000;
+}
+
+.p1 {
+	position:static;
+	top:150px;   /*ne fonctionne pas*/
+}
+
+.p2 {
+	position: relative;
+	left: 150px;
+}

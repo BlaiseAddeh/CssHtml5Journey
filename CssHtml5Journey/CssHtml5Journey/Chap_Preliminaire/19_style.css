@@ -1,0 +1,22 @@
+﻿body {
+}
+
+p{	
+	border: 1px solid black;
+}
+
+.p1,.p2{
+	display:inline-block;
+}
+
+/*h1{
+	display:none
+}*/
+
+.p1{
+	width:60%;
+}
+
+.p2 {
+	width: 35%;
+}

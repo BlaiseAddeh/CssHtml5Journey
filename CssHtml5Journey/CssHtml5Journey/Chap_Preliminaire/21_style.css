@@ -1,0 +1,37 @@
+﻿body {
+}
+
+/*
+	float: permet de faire flotter les elements à gauche ou à droite
+	Un elt flotte tjrs dans les limites de son elt parent
+
+	clear: empêche des elements de venir se positionner au côté d'elt flottant. (effet côte à côte)
+
+	overflow:hidden   va cacher tout le contenu qui dépasse l'element parent
+	overflow:scroll   permet d'avoir un ascenseur de scrolling
+	overflow:auto   permet d'avoir un ascenseur de scrolling
+*/
+
+.div1 {
+	background-color: orange;
+	width: 200px;
+	height: 50px;
+	z-index: 100;
+	float: right;
+	clear:left;
+	overflow:auto;
+}
+
+h1{	
+	z-index:1000;
+	float:left;
+}
+
+.p1{
+	float:right
+}
+
+.p2{
+	/*clear:right;*/
+	clear:both;
+}

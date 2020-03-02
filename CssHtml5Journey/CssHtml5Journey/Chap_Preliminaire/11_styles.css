@@ -1,0 +1,21 @@
+﻿body {
+}
+
+/*p est un element de type block : commence tjr sur une nouvelle ligne et prend toute la largeur de la page*/
+/*Exple des elements de type block
+	ol et ul
+	form et div
+*/
+p{
+	border:1px solid black;
+}
+
+/* les element de type inline: ne commence pas forcement sur une nouvelle ligne. Ils s'inserrent dans la ligne en cours.
+  Ils ont uniquement la largeur qui leur est necessaire.
+	Exemple:
+	<strong>, b , a, img, span
+*/
+
+strong {
+	border: 1px solid red;
+}

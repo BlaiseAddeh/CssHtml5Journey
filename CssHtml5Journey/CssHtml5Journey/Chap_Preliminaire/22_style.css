@@ -1,0 +1,40 @@
+﻿body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Pour center un elt avec margin, il faut utiliser la ppté auto*/
+
+/*.div1 {
+	background-color:orange;
+	width: 400px;
+	height: 200px;
+	position:absolute;
+	left: 100px;
+}*/
+
+/*Autre methode pour centrer un elt. La largeur se definie automatiquement*/
+
+/*.div1 {
+	background-color: orange;
+	height: 200px;
+	position: absolute;
+	left: 30%;
+	right: 30%;
+}*/
+
+
+/* Positionnement à l'aide de float*/
+
+.div1 {
+	background-color: orange;
+	width: 400px;
+	height: 200px;
+	float:left;
+	text-align:center
+}
+
+h1{
+	float:left;
+}

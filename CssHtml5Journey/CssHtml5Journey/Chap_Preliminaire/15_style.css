@@ -1,0 +1,45 @@
+﻿body {
+}
+
+h1{
+	text-align:center;
+	text-shadow:1px 1px 4px #444;
+}
+
+h2{
+	text-shadow:0px 0px 3px teal;
+}
+
+.p1{
+	text-align:right;
+	text-transform:uppercase;
+}
+
+.p2 {
+	text-transform: capitalize;
+	text-shadow: 3px -3px 4px blue;
+}
+
+.p3 {
+	text-transform:lowercase;
+	text-decoration:underline;
+}
+
+.p4{
+	text-decoration:line-through;
+	text-indent:10%;
+}
+
+.p5 {
+	text-align: center;
+	text-decoration: overline;
+}
+
+.p6 {
+	font-size:25px;
+	text-shadow: -3px 3px 4px blue;
+}
+
+a {
+	text-decoration:none;
+}

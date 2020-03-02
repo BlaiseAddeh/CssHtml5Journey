@@ -1,0 +1,18 @@
+﻿Balises et Attributs Html
+
+Site pour le test du code HTML des pages:
+validator.w3.org  
+
+Site pour le test du code CSS des pages:
+jigsaw.w3.org
+
+Chapter 19:
+Les selecteurs elements: par exemple les selecteurs p, input, textarea
+Chapter 20: Emplacement d'écriture du code CSS
+1- Dans le <head> de la page html
+2- A l'interieur de la balise
+3- A l'interieur d'un fichier de style 
+  (plus conseillé car permet de lier plusieurs pages à un même fichier de style)
+
+les polices proposées par google se trouvent à l'adresse
+google.com/fonts
