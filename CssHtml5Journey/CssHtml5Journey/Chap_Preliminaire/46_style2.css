@@ -1,0 +1,33 @@
+﻿body {
+}
+
+table {
+	border-collapse: collapse;
+}
+
+thead th, tfoot td {
+	background-color: RGB(000, 000, 255);
+	color: white;
+	text-transform: uppercase;
+}
+
+th {	
+	border: 1px solid black;
+	padding: 10px;
+	font-weight:normal;
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+
+
+tr:nth-child(even) { /* Les lignes paire*/
+	background-color: orange;
+}
+
+tr:nth-child(odd) { /* Les lignes impaire*/
+	background-color: #F4E3B2;
+}

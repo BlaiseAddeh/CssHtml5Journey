@@ -1,0 +1,39 @@
+﻿body {
+	
+}
+
+.div1 {
+	/*--------Degradé de la gauche vers la droite*/
+	/*background: -webkit-linear-gradient(left, red, orange, blue);
+	background: -o-linear-gradient(right, red, orange, blue);
+	background: -moz-linear-gradient(right, red, orange, blue);
+	background: linear-gradient(to right, red, orange, blue);*/
+	/*---------Degradé du coin superieur gauche vers le coin inférieur droit*/
+	/*background: -webkit-linear-gradient(top left, red, orange, blue);
+	background: -o-linear-gradient(bottom right, red, orange, blue);
+	background: -moz-linear-gradient(bottom right, red, orange, blue);
+	background: linear-gradient(to bottom right, red, orange, blue);*/
+	/*background: -webkit-linear-gradient(top left, red, orange, yellow, blue);
+	background: -o-linear-gradient(bottom right, red, orange, yellow, blue);
+	background: -moz-linear-gradient(bottom right, red, orange, yellow, blue);
+	background: linear-gradient(to bottom right, red, orange, yellow, blue);*/
+	/*--------- Precision de l'angle du dégradé*/
+
+	/*---de gauche à droite 90 deg*/
+	/*background: -webkit-linear-gradient(90deg, red, orange, yellow, blue);
+	background: -o-linear-gradient(90deg, red, orange, yellow, blue);
+	background: -moz-linear-gradient(90deg, red, orange, yellow, blue);
+	background: linear-gradient(90deg, red, orange, yellow, blue);*/
+
+	/*---de haut vers le bas 180 deg*/
+	/*background: -webkit-linear-gradient(180deg, red, orange, yellow, blue);
+	background: -o-linear-gradient(180deg, red, orange, yellow, blue);
+	background: -moz-linear-gradient(180deg, red, orange, yellow, blue);
+	background: linear-gradient(180deg, red, orange, yellow, blue);*/
+
+	/*-----Degradé vers de 2 couleurs vers le transparent*/
+	background: -webkit-linear-gradient(RGBa(255,000,000,0.8), RGBa(255,000,000,0.1));
+	background: -o-linear-gradient(RGBa(255,000,000,0.8), RGBa(255,000,000,0.1));
+	background: -moz-linear-gradient(RGBa(255,000,000,0.8), RGBa(255,000,000,0.1));
+	background: linear-gradient(RGBa(255,000,000,0.8), RGBa(255,000,000,0.1));
+}

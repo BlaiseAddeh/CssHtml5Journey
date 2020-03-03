@@ -1,0 +1,32 @@
+﻿body {
+}
+
+.div1 {
+	float: left;
+	width: 400px;
+	height: 400px;
+	/*background: -webkit-linear-gradient(left, blue 10%, purple 30%, red 60%);
+	background: -o-linear-gradient(right, blue 10%, purple 30%, red 60%);
+	background: -moz-linear-gradient(right, blue 10%, purple 30%, red 60%);
+	background: linear-gradient(to right, blue 10%, purple 30%, red 60%);*/
+	background: -webkit-radial-gradient(20% 40%, closest-side, blue 10%, purple 80%, red);
+	background: -moz-radial-gradient(20% 40%, closest-side, blue 10%, purple 80%, red);
+	background: -o-radial-gradient(20% 40%, closest-side, blue 10%, purple 80%, red);
+	background: -radial-gradient(closest-side at 20% 40%, blue 10%, purple 80%, red);
+}
+
+.div2 {
+	float: right;
+	width: 400px;
+	height: 400px;
+	/*
+	background: -webkit-radial-gradient(circle, blue 10%, purple 30%, red 60%);
+	background: -moz-radial-gradient(circle, blue 10%, purple 30%, red 60%);
+	background: -o-radial-gradient(circle, blue 10%, purple 30%, red 60%);
+	background: -radial-gradient(circle, blue 10%, purple 30%, red 60%);
+	*/
+	background: -webkit-radial-gradient(20% 40%, farthest-side, blue 10%, purple 80%, red);
+	background: -moz-radial-gradient(20% 40%, farthest-side, blue 10%, purple 80%, red);
+	background: -o-radial-gradient(20% 40%, farthest-side, blue 10%, purple 80%, red);
+	background: -radial-gradient(farthest-side at 20% 40%, blue 10%, purple 80%, red);
+}

@@ -1,0 +1,62 @@
+﻿body {
+}
+
+/* 
+	les speudo classe permettent de changer le style d'un elt en fonction de son état
+	les speudo classe sont reconnaissable par le faite qu'elles commencent toutes par 02 points (:)
+
+	:link  ---> permet de styler un lien non visité
+	:visited  ---> permet de styler un lien une fois visité
+	:hover  ---> permet de changer l'état d'un elt une fois que cet elt est survolé par l'utilisateur
+	:active  ---> permet de modifier l'aspect d'un lien une fois qu'il est cliqué
+
+*/
+
+h1:hover{
+	color:orange;
+}
+
+a:link {
+	color:blue;
+}
+
+a:visited {
+	color:green;
+}
+
+/*---- Selectionne les premiers enfant de type p de chaque elt*/
+
+/*p:first-child {
+	color:blue;
+}*/
+
+/*---- Selectionne les derniers enfant de type p de chaque elt*/
+
+/*p:last-child {
+	color:red;
+}*/
+
+/*---- Selectionne les enfant de type p de chaque elt à la position mentionnée entre parenthese*/
+
+/*p:nth-child(2) {
+	color:brown;
+}*/
+
+/*---- Selectionne les enfant de type p de chaque elt à la position paire*/
+/*p:nth-child(even) {
+	color: brown;
+}*/
+
+/*---- Selectionne les enfant de type p de chaque elt à la position impaire*/
+
+/*p:nth-child(odd) {
+	color: mediumvioletred;
+}*/
+
+/*---- Selectionne les enfant de type p de chaque elt à la position paire à l'interieur de la div de classe div2*/
+.div2 p:nth-child(even) {
+	color: brown;
+}
+
+
+

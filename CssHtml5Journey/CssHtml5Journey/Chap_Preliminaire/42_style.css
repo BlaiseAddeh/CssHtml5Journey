@@ -1,0 +1,25 @@
+﻿body {
+	/*background-image: url('images/backimage.png');*/
+	/*------redimensionner l'image de fond*/
+	/*background-size: 25%;*/
+	/*------gerer la repetition de l'image*/
+	/*background-repeat: no-repeat;*/
+	/*------gerer la repetition de l'image suivant l'axe des x*/
+	/*background-repeat:repeat-x;*/
+	/*------gerer la repetition de l'image suivant l'axe des y*/
+	/*background-repeat: repeat-y;*/
+	/*------Fixer la position de l'image de fond par rapport à la fenetre courante*/
+	/*background-attachment:fixed;*/
+	/*------Faire en sorte que l'image scroll*/
+	/*background-attachment: scroll;*/
+	/*------Modification de la position de l'image de fond (placer l'image dans le coin droit en haut)*/
+	/*background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: top right*/
+	/*-----Ajouter plusieurs image de fond en CSS*/
+	
+	/*background-image: url('images/backgrisfonce.png'), url('images/backhtml.png');
+	background-size: 50%, 50%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, top right;*/
+}

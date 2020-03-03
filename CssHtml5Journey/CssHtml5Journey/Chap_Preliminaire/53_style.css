@@ -1,0 +1,98 @@
+﻿body {
+}
+
+/* CSS avancé */
+
+/*
+	le selecteur * permet de selectionner tous les elts d'une page html d'un coup
+	le selecteur * est appelé, selecteur universel
+
+	On peut grouper les selecteur css en les separant d'une virgule.
+
+	+ permet de selectionner tous les elts se trouvant au même niveau qu'un elt 
+	et qui suive immédiatement cet elt
+
+	> est un selecteur permettant de selectionner tous les elts qui sont enfants directs d'un elt
+
+*/
+
+/*
+
+*{
+	border: 1px solid black;
+}
+
+*/
+
+/* Attribuer une bordure aux elts h1 et p
+
+h1, p {
+	border: 1px solid black;
+}
+
+*/
+
+/*-- Changer la couleur des paragraphes se trouvant dans la balise div*/
+
+/*div p {
+	color:blue;	
+}*/
+
+
+/*-- Changer la couleur des paragraphes se trouvant dans la balise div ayant la classe div2*/
+/*.div2 p {
+	color:red;
+}*/
+
+/*-- la balise p de même niveau que la balise div et venant juste après la balise div sera colorée en rouge*/
+
+/*
+div + p {
+	color:red;
+}
+*/
+
+/*-- la balise p de même niveau que la balise div ayant une classe div2 et venant juste après la balise div sera colorée en rouge*/
+
+/*
+.div2 + p {
+	color: red;
+}
+
+*/
+
+/*-- Cible les p enfants de la div de classe div2*/
+
+/*
+.div2 > p {
+	color:red;
+}
+*/
+
+/*-- Cible les h2 enfants de toutes les balise div*/
+
+/*
+div > h2 {
+	color:purple;
+}
+*/
+
+/*---- LES SELECTEURS D'ATTRIBUT ------------*/
+
+/* -- selection de toutes les div ayant un attribut class*/
+
+/*
+div[class] {
+	border:1px solid  black;
+}
+*/
+
+/* -- selection de toutes les div ayant un attribut class="div2"*/
+div[class="div2"] {
+	border: 1px solid black;
+}
+
+
+
+
+

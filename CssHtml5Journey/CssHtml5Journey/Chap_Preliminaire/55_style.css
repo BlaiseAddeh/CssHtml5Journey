@@ -1,0 +1,47 @@
+﻿body {
+}
+
+/*
+	les speudo elt css permettront de modifier l'apparence d'une partie d'un ou de plusieurs partie d'un élément HTML
+	les speudo elt css permettent aussi soit d'ajouter un elt en debut ou en fin d'un elt html
+
+	les speudo elt css commencent tous par ::
+
+	::first-letter ----------> permet de selectionner la premiere lettre d'un text contenu dans un elt
+	::first-line ---------->permet de selectionner la premiere ligne d'un text contenu dans un elt
+	::selection ----> modifie l'apect de la selection d'un contenu
+	::before ----> inserrer du contenu en debut d'un elt html
+	::after ----> inserrer du contenu en fin d'un elt html
+
+	::first-letter , ::first-line ne fontionne qu'avec les elt de type block
+*/
+
+/*----Les premieres lettres des paragraphes de la div de classe div1 sont modifiées */
+.div1 p::first-letter{
+	color:red;
+	font-size:25px;
+}
+
+.div2 p::first-line {
+	color: red;
+}
+
+/*-- Dans la div de classe div2, quand on selectionne une partie du texte, la selection est en orange*/
+.div2 p::-moz-selection {
+	background-color: orange;
+}
+
+.div2{
+	border: 1px solid black;
+}
+
+.div2::before{
+	content:"Du texte ajouté au debut de mon div avec ::before";
+}
+
+.div2::after {
+   content: url('images/smiley.png');
+}
+
+
+

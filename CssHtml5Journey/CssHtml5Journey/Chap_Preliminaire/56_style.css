@@ -1,0 +1,30 @@
+﻿body {
+}
+
+/*les sprites permettent de retrouver plusieurs images à partir d'une seule requete*/
+
+
+#fb, #tw, #lk {
+	width:105px;
+	height: 80px;
+	display:block;
+	position:absolute;
+}
+
+#fb {
+	background-image:url('images/Social_circle.png');
+	background-position: 0px 0px;
+}
+
+#tw {
+	background-image: url('images/Social_circle.png');
+	background-position: -410px 0px;
+	left:200px;
+}
+
+
+#lk {
+	background-image: url('images/Social_circle.png');
+	background-position: -162px 0px;
+	left: 400px;
+}
