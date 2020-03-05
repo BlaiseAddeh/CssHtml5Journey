@@ -1,0 +1,114 @@
+﻿body {
+}
+
+/*
+	@keyframes permet la création d'animations en CSS
+
+	les pptés de l'animation
+	animation-name
+	animation-duration
+	animation-timing
+	animation-delay
+	animation-iteration-count
+	animation-direction
+
+*/
+
+/* --Changer la couleur du blue au orange de notre div
+
+	
+div {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	-webkit-animation-name: chgt-couleur;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	animation-duration: 5s;
+}
+
+@-webkit-keyframes chgt-couleur {
+	from {background-color: blue;}
+	to { background-color: orange;}
+}
+
+@-moz-keyframes chgt-couleur {
+	from {background-color: blue;}
+	to { background-color: orange;}
+}
+
+@-o-keyframes chgt-couleur {
+	from {background-color: blue;}
+	to { background-color: orange; }
+}
+
+@keyframes chgt-couleur {
+	from { background-color: blue; }
+	to {background-color: orange;}
+}
+
+*/
+
+/* --Changer la couleur plusieurs fois et faire bouger notre div
+
+*/
+
+div {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: relative;
+	-webkit-animation-name: chgt-couleur;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+
+	-moz-animation-name: chgt-couleur;
+	-moz-animation-duration: 5s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-delay: 4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+
+	-o-animation-name: chgt-couleur;
+	-o-animation-duration: 5s;
+	-o-animation-timing-function: ease;
+	-o-animation-delay: 4s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+
+	animation-name: chgt-couleur;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes chgt-couleur {
+	0% { background-color:green; top: 0px; left:0px; }
+	25% {
+		background-color: yellow;
+		top: 0px;
+		left: 200px;
+	}
+	50% {
+		background-color: red;
+		top: 200px;
+		left: 200px;
+	}
+	75% {
+		background-color: blue;
+		top: 200px;
+		left: 0px;
+	}
+	100% {
+		background-color: green;
+		top: 0px;
+		left: 0px;
+	}
+}
+

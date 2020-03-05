@@ -126,7 +126,21 @@
     <Content Include="Chap_Preliminaire\55_style.css" />
     <Content Include="Chap_Preliminaire\56_sprites_css.html" />
     <Content Include="Chap_Preliminaire\56_style.css" />
+    <Content Include="Chap_Preliminaire\57_style.css" />
+    <Content Include="Chap_Preliminaire\57_TransitionsCSS.html" />
+    <Content Include="Chap_Preliminaire\58_animationcss.html" />
+    <Content Include="Chap_Preliminaire\58_style.css" />
+    <Content Include="Chap_Preliminaire\59_formulaires.html" />
+    <Content Include="Chap_Preliminaire\59_style.css" />
     <Content Include="Chap_Preliminaire\5_listes.html" />
+    <Content Include="Chap_Preliminaire\61_style.css" />
+    <Content Include="Chap_Preliminaire\61_typeinput_optionliste.html" />
+    <Content Include="Chap_Preliminaire\62_miseenforme_formulaire.html" />
+    <Content Include="Chap_Preliminaire\62_style.css" />
+    <Content Include="Chap_Preliminaire\64_style.css" />
+    <Content Include="Chap_Preliminaire\64_viewport.html" />
+    <Content Include="Chap_Preliminaire\65_mediaqueries.html" />
+    <Content Include="Chap_Preliminaire\65_style.css" />
     <Content Include="Chap_Preliminaire\6_lieninterne_lienexterne.html" />
     <Content Include="Chap_Preliminaire\7_insertionimage.html" />
     <Content Include="Chap_Preliminaire\8_selecteurs.html" />
@@ -137,6 +151,10 @@
     <Content Include="Chap_Preliminaire\images\backhtml.png" />
     <Content Include="Chap_Preliminaire\images\backimage.png" />
     <Content Include="Chap_Preliminaire\images\capchretien.PNG" />
+    <Content Include="Chap_Preliminaire\images\ecology1.png" />
+    <Content Include="Chap_Preliminaire\images\pot_fleur1.jpg" />
+    <Content Include="Chap_Preliminaire\images\pot_fleur2.jpeg" />
+    <Content Include="Chap_Preliminaire\images\pot_fleur3.jpg" />
     <Content Include="Chap_Preliminaire\images\smiley.png" />
     <Content Include="Chap_Preliminaire\images\Social_circle.png" />
     <Content Include="Chap_Preliminaire\images\t13.jpeg" />
@@ -152,6 +170,11 @@
     <Content Include="Chap_Preliminaire\2_titre_paragraphe.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="Works\site1\index.html" />
+    <Content Include="Works\site1\style.css" />
+    <Content Include="Works\site2\ecology1.png" />
+    <Content Include="Works\site2\index.html" />
+    <Content Include="Works\site2\style.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

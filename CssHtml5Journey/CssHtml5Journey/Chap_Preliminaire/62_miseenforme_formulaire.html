@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="62_style.css"/>
+</head>
+<body>
+
+	<h1>Les formulaitres</h1>
+	<form action="/" method="post">
+		<fieldset id="section1">
+		    <legend>Informations personnelles :</legend>	
+			<label for="prenom">Entrez votre prenom :</label>
+			<input type="text" id="prenom" name="prenom" value="" /> <br />
+
+			<label for="nom">Entrez votre nom</label>
+			<input type="text" id="nom" name="nom" value="" /> <br />
+
+			<label for="pseudo">Choisissez votre pseudo</label>
+			<input type="text" id="pseudo" name="pseudo" value="" /> <br />
+
+		</fieldset>
+
+		<fieldset id="section2">
+		<legend>Informations supplémentaires :</legend>
+			Quels sont vos loisirs? <br />
+			<input type="checkbox" name="hobbies" value="informatique" id="inf" />
+			<label for="inf">Informatique</label>
+
+			<input type="checkbox" name="hobbies" value="sport" id="sport" />
+			<label for="sport">Sport</label>
+
+			<input type="checkbox" name="hobbies" value="voyages" id="voyages" />
+			<label for="voyages">Voyages</label>
+
+			<input type="checkbox" name="hobbies" value="musique" id="musique" />
+			<label for="musique">Musique</label>
+		</fieldset>
+
+		<input type="submit" value="Envoyer" />
+
+	</form>
+
+</body>
+</html>

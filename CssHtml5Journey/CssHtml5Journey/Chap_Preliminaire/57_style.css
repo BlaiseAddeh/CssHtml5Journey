@@ -1,0 +1,57 @@
+﻿body {
+}
+
+/*
+	transition-delay
+	transition-timing
+
+*/
+
+/*
+div {
+	width: 200px;
+	height: 200px;
+	background-color: #06D;
+	-webkit-transition: width 2s, background-color 5s;
+	-moz-transition: width 2s, background-color 5s;
+	-o-transition: width 2s, background-color 5s;
+	transition: width 2s, background-color 5s;
+}
+
+*/
+
+
+/*
+div {
+	width: 200px;
+	height: 200px;
+	background-color: #06D;
+	-webkit-transition: 3s width 2s ease, 3s background-color 5s ease;
+	-moz-transition: 3s width 2s ease, 3s background-color 5s ease;
+	-o-transition: 3s width 2s ease, 3s background-color 5s ease;
+	transition: 3s width 2s ease, 3s background-color 5s ease;
+}
+
+*/
+
+
+
+div {
+	width: 200px;
+	height: 200px;
+	background-color: #06D;
+	-webkit-transition: 3s width 2s ease, background-color 5s ease;
+	-moz-transition: 3s width 2s ease, background-color 5s ease;
+	-o-transition: 3s width 2s ease, background-color 5s ease;
+	transition: 3s width 2s ease, background-color 5s ease;
+}
+
+
+
+
+div:hover{
+	width: 400px;
+	background-color:#A03;
+}
+
+

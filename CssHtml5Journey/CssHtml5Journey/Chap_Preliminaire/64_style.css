@@ -1,0 +1,25 @@
+﻿body {
+	width:100%;
+}
+
+/*
+	viewport sont des méta données css indiquant que le contenu de la page
+	devra s'adapter à la taille de l'ecran de vos visiteurs
+
+*/
+
+div, p{
+	width: 50%;
+	border: 1px solid black;
+}
+
+div{
+	background-color: #95cdce;
+}
+
+p {
+	color:#fff;
+	background-color: #7f7878;
+}
+
+
