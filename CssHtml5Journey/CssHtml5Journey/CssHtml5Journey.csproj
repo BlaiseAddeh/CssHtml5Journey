@@ -175,6 +175,16 @@
     <Content Include="Works\site2\ecology1.png" />
     <Content Include="Works\site2\index.html" />
     <Content Include="Works\site2\style.css" />
+    <Content Include="Works\site3\about.html" />
+    <Content Include="Works\site3\css\style.css" />
+    <Content Include="Works\site3\img\logo_brush.png" />
+    <Content Include="Works\site3\img\logo_css.png" />
+    <Content Include="Works\site3\img\logo_html.png" />
+    <Content Include="Works\site3\img\showcase.jpg" />
+    <Content Include="Works\site3\index.html" />
+    <Content Include="Works\site3\services.html" />
+    <Content Include="Works\Tp_Pirple\1_tp.html" />
+    <Content Include="Works\Tp_Pirple\2_tp.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
