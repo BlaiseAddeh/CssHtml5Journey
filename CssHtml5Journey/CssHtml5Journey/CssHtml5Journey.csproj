@@ -183,6 +183,11 @@
     <Content Include="Works\site3\img\showcase.jpg" />
     <Content Include="Works\site3\index.html" />
     <Content Include="Works\site3\services.html" />
+    <Content Include="Works\site4\Bck.jpg" />
+    <Content Include="Works\site4\Bck1.jpg" />
+    <Content Include="Works\site4\Bck__.jpg" />
+    <Content Include="Works\site4\index.html" />
+    <Content Include="Works\site4\style.css" />
     <Content Include="Works\Tp_Pirple\1_tp.html" />
     <Content Include="Works\Tp_Pirple\2_tp.html" />
   </ItemGroup>
